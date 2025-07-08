@@ -1,0 +1,26 @@
+# R files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Package files
+*.tar.gz
+*.tgz
+
+# API keys and secrets
+anthropic_key.txt
+*.key
+*.secret
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+*.Rproj
+
+# Documentation
+docs/

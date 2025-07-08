@@ -1,0 +1,28 @@
+Package: autoannotatecelltype
+Type: Package
+Title: Automated Cell Type Annotation Using AI Models
+Version: 0.1.0
+Authors@R: 
+    person("John", "Hutchinson", , "john@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package provides automated cell type annotation functionality 
+    using large language models (Claude and Gemini) to identify cell types from 
+    marker gene lists. The package is designed for single-cell RNA sequencing 
+    analysis workflows and supports multiple species and tissue contexts.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+    ellmer,
+    glue
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/johnhutchinson/autoannotatecelltype
+BugReports: https://github.com/johnhutchinson/autoannotatecelltype/issues
